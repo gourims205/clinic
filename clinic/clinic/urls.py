@@ -20,7 +20,7 @@ from clinicapp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('book/', appointment,name='appointment'),
+    path('', appointment,name='appointment'),
     path('contact/',contact,name='contact'),
     path('about/',about,name='about'),
     path('departments/',departments,name='departments'),
