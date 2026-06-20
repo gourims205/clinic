@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-ev695pxhcrdg)9-p#(6$54(t4gto_#&r*6n59l4i=pclhj#qe&'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = Fasle
 
 ALLOWED_HOSTS = ['https://clinic-qzci.onrender.com',]
 
